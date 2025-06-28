@@ -35,8 +35,7 @@ namespace MyApp
                             return intMainMenuSelected;
 
                         case 2:
-                            Console.Clear();
-                            Console.WriteLine("Bem vindo ao cadastro");
+                            RegisterPage.RegisterUser();
                             return intMainMenuSelected;
 
                         case 3:
